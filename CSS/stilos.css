@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --background-color: rgb(234, 233, 233);
+    --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --color: rgb(16,56,101)
+}
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    position: relative; 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+   /* LOGO */
+.navbar img {
+    width: 45px;
+}
+.logo {
+    display: flex;
+}
+.logo p {
+    font-size: 1.75em;
+}
+.viu {
+    color: rgb(16, 56, 101);
+}
+.be {
+    color: forestgreen;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px 0px;
+}
+.menu a {
+    display: block;
+    width: 100%;
+    font-size: 1.1em;
+    padding: 7px;
+    color: rgb(16, 56, 101);
+    text-decoration: none;
+}
+.menu a:hover {
+    width: 100%;
+    background-color: rgb(210, 209, 209);
+    transition: .3s ease;
+}
+
+input[type=checkbox]:checked ~ .menu{
+    display: block;
+}
+
+  /*  HAMBURGUER  */
+.hamburger {
+    display: block;
+    padding: 5px 15px;
+    font-size: 2em;
+}
+.hamburger:hover {
+    background-color: rgb(210, 209, 209);
+}
+input[type=checkbox] {
+    display: none;
+} 
+  /*  aCCESIBILIDAD  */
+.accebility {
+    display: none;
+    font-size: 1.5em;
+    padding: 0px 10px;
+}
+.accebility a {
+    color: white;
+}
+
+
+
+/* -- FOOTER -- */
+.footer {
+    background-color: var(--background-color);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+}
+.contacto {
+    grid-row: 1 / 2;
+    text-align: center;
+}
+.footer-media {
+    grid-row: 3 / 4;
+    text-align: center;
+}
+.footer-media img {
+    width: 70px;
+    border-radius: 100%;
+    padding-bottom: 5px;
+}
+.social-foot {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.social-foot .fa {
+    padding-left: 10px;
+    color: var(--color);
+}
+.social-foot .fa:hover {
+    color: forestgreen;
+}
+.info-links {
+    grid-row: 2/ 3;
+    text-align: center;
+}
+.footer h3 {
+    color: black;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.footer p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    padding-top: 7px;
+}
+.info {
+    padding-left: 25px;
+}
+.info a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.info p {
+    text-align: center;
+}
+.hr-footer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color);
+}
+/*-- COPYRIGTH --*/
+.copy {
+    grid-row: 4 / 5;
+    text-align: center;
+}
+.copy i {
+    font-size: .8em;
+}
