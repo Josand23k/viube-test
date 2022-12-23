@@ -173,6 +173,7 @@ input[type=checkbox] {
     background-color: forestgreen;
     color: white;
     padding: 25px 0px;
+    margin-top: 10px;
 }
 .banner h1 {
     padding-left: 25%;
@@ -213,6 +214,7 @@ input[type=checkbox] {
     content: "";
     clear: both;
     display: table;
+    width: 100%;
 }
 .empty {
     height: 80px;
@@ -326,4 +328,85 @@ justify-content: space-around;
 }
 .copy i {
     font-size: .8em;
+}
+
+/* -- MEDIA QUERIES -- */
+    /* -- MEDIUM DEVICES -- */
+@media screen and (min-width: 600px) {
+.banner h1 {
+    padding-left: 30%;
+    font-size: 1.3em;
+}
+.banner-h1 {
+    font-size: 1.2em;
+}
+.banner-p1 {
+    padding-left: 23%;
+}
+.banner-p2 {
+    padding-left: 31%;
+    font-size: 1.4em;
+    padding-top: 5px;
+}
+}
+
+    /* -- LARGE DEVICES -- */
+@media screen and (min-width: 900px) {
+    /* -- MENU -- */
+.menu {
+    display: flex;
+    position: relative;
+}
+.menu a {
+    border-left: 1.5px solid rgb(16, 56, 101);
+    padding-right: 15px;
+    font-size: 1em;
+}
+.menu a:hover {
+    background-color: var(--background-color);
+    font-weight: bold;
+}
+.hamburger {
+    display: none;
+}
+    /* -- BANNER -- */
+.banner h1 {
+    padding-left: 40%;
+    font-size: 1.4em;
+}
+.banner-h1 {
+    font-size: 1.3em;
+}
+.banner-p1 {
+    padding-left: 33%;
+}
+.banner-p2 {
+    padding-left: 41%;
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+    /* -- SUSTENTABILIDAD -- */
+.empty {
+    width: 60%;
+}
+.head-sustentabilidad p {
+    font-size: 1.5em;
+}
+    /* -- CARDS -- */
+.cards {
+    content: "";
+    clear: both;
+    display: table;
+}
+.cards h2 {
+    width: 50%;
+}
+.cards-img {
+    width: 50%;
+    float: left;
+}
+.suste {
+    width: 50%;
+    float: right;
+}
 }
