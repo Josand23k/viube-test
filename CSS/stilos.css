@@ -253,6 +253,27 @@ justify-content: space-around;
     padding: 10px;
     font-size: 1.2em;
 }
+/* -- COTIZA -- */
+.cotiza {
+    padding: 10px;
+    content: "";
+    clear: both;
+    display: table;
+}
+.text-cotiza {
+    font-family: var(--font-family);
+    width: 65%;
+    font-size: .7em;
+    float: left;
+}
+.link-cotiza {
+    width: 34%;
+    float: left;
+    padding: 12px;
+    background-color: rgb(16, 56, 101);
+    color: white;
+    text-align: center;
+}
 /* -- FOOTER -- */
 .footer {
     background-color: var(--background-color);
@@ -369,6 +390,8 @@ justify-content: space-around;
 .hamburger {
     display: none;
 }
+    /* -- SLIDE -- */
+
     /* -- BANNER -- */
 .banner h1 {
     padding-left: 40%;
@@ -408,5 +431,39 @@ justify-content: space-around;
 .suste {
     width: 50%;
     float: right;
+}
+/* -- COTIZA -- */
+.cotiza {
+    width: 100%;
+}
+.link-cotiza {
+    float: right;
+}
+/* -- FOOTER -- */
+.footer {
+    content: "";
+    clear: both;
+    display: table;
+}
+.hr-footer {
+    display: none;
+}
+.info {
+    float: left;
+    width: 33.33%;
+}
+.copy {
+    width: 100%;
+    clear: left;
+}
+.footer-media {
+    float: left;
+    width: 33.33%;
+}
+.footer-media img {
+    padding-top: 25px;
+}
+.social-foot {
+    display: none;
 }
 }
