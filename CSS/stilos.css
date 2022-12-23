@@ -85,8 +85,116 @@ input[type=checkbox] {
 .accebility a {
     color: white;
 }
-
-
+/* -- SLIDE -- */
+    /* -- SLIDESSHOW -- */
+.mySlides {
+    display: none;
+}
+    /* -- SLIDESHOW CONTAINER -- */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+    /* -- NEXT & PREVIOUS BUTTONS -- */
+.prev, .next {
+    background-color: rgba(16, 56, 101, .3);
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 12px;
+    margin-top: -22px;
+    color: rgb(16, 56, 101);
+    font-weight: bold;
+    font-size: 25px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none; /* -- SAFARI -- */
+    -ms-user-select: none; /* -- IE 10+ --*/
+    user-select: none;
+}
+    /* -- POSITION THE "NEXT BUTTON" TO THE RIGHT -- */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+    /* -- ON HOVER, ADD A BLACK BACKGROUND COLOR WITH A LITTLE BIT SEE-TROUGH -- */
+.prev:hover, .next:hover {
+    background-color: var(--background-color);
+}
+    /* -- CAPTION TEXT -- */
+.text {
+    font-family: var(--font-family);
+    color: #f2f2f2;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 12px;
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    text-align: center;
+    }
+    /* -- NUMBER TEXT -- */
+.numbertext {
+    color: #f2f2f2;
+    font-family: var(--font-family);
+    font-size: .6em;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.slide-image {
+    width: 100%;
+}
+    /* -- THE DOTS/BULLETS/INDICATORS -- */
+.dots-container {
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover {
+    background-color: rgb(16, 56, 101);
+}
+    /* -- FADING ANIMATION -- */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+/* -- BANNER -- */
+.banner {
+    background-color: forestgreen;
+    color: white;
+    padding: 25px 0px;
+}
+.banner h1 {
+    padding-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+.banner-h1 {
+    font-family: 'Lucida';
+    font-size: 1.1em;
+}
+.banner-p1 {
+    padding-left: 14%;
+    font-size: 1.5em;
+}
+.banner-i1 {
+    font-size: 1.3em;
+    font-family: 'Lucida';
+}
+.banner-p2 {
+    padding-left: 25%;
+    font-size: 1.3em;
+}
 
 /* -- FOOTER -- */
 .footer {
