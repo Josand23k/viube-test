@@ -21,13 +21,13 @@
 }
    /* LOGO */
 .navbar img {
-    width: 45px;
+    width: 55px;
 }
 .logo {
     display: flex;
 }
 .logo p {
-    font-size: 1.75em;
+    font-size: 2em;
 }
 .viu {
     color: rgb(16, 56, 101);
@@ -49,7 +49,7 @@
 .menu a {
     display: block;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.4em;
     padding: 7px;
     color: rgb(16, 56, 101);
     text-decoration: none;
