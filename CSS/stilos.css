@@ -153,9 +153,9 @@ input[type=checkbox] {
 }
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 3px;
+    height: 30px;
+    width: 30px;
+    margin: 0 8px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -179,34 +179,35 @@ input[type=checkbox] {
 .banner h1 {
     padding-left: 25%;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    font-size: 2em;
 }
 .banner-h1 {
     font-family: 'Lucida';
-    font-size: 1.1em;
+    font-size: 2em;
 }
 .banner-p1 {
     padding-left: 14%;
     font-size: 1.5em;
 }
 .banner-i1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-family: 'Lucida';
 }
 .banner-p2 {
     padding-left: 25%;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 /* -- NOSOTROS -- */ 
 .nosotros {
     background-color: rgb(167, 192, 192);
-    height: 300px;
+    height: 400px;
     padding: 130px 30px;
 }
 .text-nosotros {
     border-left: 2px solid rgb(16, 56, 101);
-    width: 200px;
-    padding-left: 5px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 2em;
 }
 /* -- SUSTENTABILIDAD -- */
 .head-sustentabilidad {
@@ -218,19 +219,20 @@ input[type=checkbox] {
     width: 100%;
 }
 .empty {
-    height: 80px;
-    width: 150px;
+    height: 100px;
+    width: 400px;
     float: left;
 }
 .head-sustentabilidad p {
     width: 90%;
-    padding: 20px 0px;
-    font-size: 1.1em;
+    padding: 10px 0px;
+    font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cards h2 {
     text-align: center;
-    padding: 20px 0px ;
+    padding: 35px 0px ;
+    font-size: 2.5em;
 }
 .cards-img {
 display: flex;
@@ -238,9 +240,11 @@ justify-content: space-around;
 }
 .cards-img img {
     border: 2px solid forestgreen;
+    width: 200px;
 }
 .card p {
     text-align: center;
+    font-size: 1.8em;
 }
 .suste {
     padding: 10px;
