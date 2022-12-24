@@ -353,7 +353,7 @@ justify-content: space-around;
 
 /* -- MEDIA QUERIES -- */
     /* -- MEDIUM DEVICES -- */
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 .banner h1 {
     padding-left: 30%;
     font-size: 1.3em;
@@ -372,7 +372,7 @@ justify-content: space-around;
 }
 
     /* -- LARGE DEVICES -- */
-@media screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
     /* -- MENU -- */
 .menu {
     display: flex;
