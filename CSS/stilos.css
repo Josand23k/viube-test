@@ -21,13 +21,13 @@
 }
    /* LOGO */
 .navbar img {
-    width: 55px;
+    width: 7em;
 }
 .logo {
     display: flex;
 }
 .logo p {
-    font-size: 2em;
+    font-size: 4em;
 }
 .viu {
     color: rgb(16, 56, 101);
@@ -45,18 +45,19 @@
     left: 0;
     text-align: center;
     padding: 10px 0px;
+    top: 100%;
 }
 .menu a {
     display: block;
     width: 100%;
-    font-size: 1.4em;
-    padding: 7px;
+    font-size: 3em;
+    padding: 25px;
     color: rgb(16, 56, 101);
     text-decoration: none;
 }
 .menu a:hover {
     width: 100%;
-    background-color: rgb(210, 209, 209);
+    background-color: rgb(229, 228, 228);
     transition: .3s ease;
 }
 
@@ -68,7 +69,7 @@ input[type=checkbox]:checked ~ .menu{
 .hamburger {
     display: block;
     padding: 5px 15px;
-    font-size: 2em;
+    font-size: 4.5em;
 }
 .hamburger:hover {
     background-color: rgb(210, 209, 209);
