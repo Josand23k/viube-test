@@ -398,7 +398,6 @@ justify-content: space-around;
     border-left: 1.5px solid rgb(16, 56, 101);
     padding: 12px;
     font-size: 1em;
-
 }
 .menu a:hover {
     background-color: var(--background-color);
@@ -408,7 +407,11 @@ justify-content: space-around;
     display: none;
 }
     /* -- SLIDE -- */
-
+        /* -- DOTS -- */
+.dot {
+    width: 17px;
+    height: 17px;
+}
     /* -- BANNER -- */
 .banner h1 {
     padding-left: 40%;
@@ -425,6 +428,13 @@ justify-content: space-around;
     font-size: 1.5em;
     padding-top: 5px;
 }
+    /* -- NOSOTROS -- */
+.nosotros {
+    padding: 180px 75px;
+}
+.text-nosotros {
+    font-size: 1.2em;
+}
     /* -- SUSTENTABILIDAD -- */
 .empty {
     width: 60%;
@@ -440,14 +450,31 @@ justify-content: space-around;
 }
 .cards h2 {
     width: 50%;
+    font-size: 1.5em;
 }
 .cards-img {
     width: 50%;
     float: left;
+    padding-left: 10px;
+}
+.card {
+    width: 33.33%;
+}
+.card p {
+    font-size: 1em;
 }
 .suste {
     width: 50%;
     float: right;
+    padding-top: 0px;
+}
+.header-suste {
+    padding: 0px 10px;
+    font-size: 1.8em;
+}
+.text-suste {
+    padding: 8px 10px;
+    font-size: 1.5em;
 }
 /* -- COTIZA -- */
 .cotiza {
@@ -455,12 +482,24 @@ justify-content: space-around;
 }
 .link-cotiza {
     float: right;
+    font-size: 1.5em;
+    padding: 5px 150px;
+}
+.text-cotiza {
+    font-size: .9em;
+    padding: 5px 100px;
 }
 /* -- FOOTER -- */
 .footer {
     content: "";
     clear: both;
     display: table;
+}
+.info h3 {
+    font-size: 1.3em;
+}
+.info p {
+    font-size: 1em;
 }
 .hr-footer {
     display: none;
@@ -472,6 +511,7 @@ justify-content: space-around;
 .copy {
     width: 100%;
     clear: left;
+    font-size: .5em;
 }
 .footer-media {
     float: left;
