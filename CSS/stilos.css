@@ -384,14 +384,21 @@ justify-content: space-around;
     /* -- LARGE DEVICES -- */
 @media only screen and (min-width: 992px) {
     /* -- MENU -- */
+.navbar img {
+    width: 3.6em;
+}
+.logo {
+    font-size: .7em;
+}
 .menu {
     display: flex;
     position: relative;
 }
 .menu a {
     border-left: 1.5px solid rgb(16, 56, 101);
-    padding-right: 15px;
+    padding: 12px;
     font-size: 1em;
+
 }
 .menu a:hover {
     background-color: var(--background-color);
