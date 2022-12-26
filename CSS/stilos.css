@@ -98,7 +98,7 @@ input[type=checkbox] {
 }
     /* -- NEXT & PREVIOUS BUTTONS -- */
 .prev, .next {
-    background-color: rgba(16, 56, 101, .3);
+    background-color: rgba(233, 233, 234, 0.3);
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -407,6 +407,11 @@ justify-content: space-around;
     display: none;
 }
     /* -- SLIDE -- */
+.prev, .next {
+    top: 45%;
+    padding: 20px;
+    font-size: 35px;
+}
         /* -- DOTS -- */
 .dot {
     width: 17px;
