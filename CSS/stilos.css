@@ -171,7 +171,8 @@
     background-color: rgb(216, 240, 216);
 }
 .banner {
-    margin: 20px 10px;
+    margin: 20px 0px;
+    padding: 10px;
 }
 .banner h2 {
     text-align: center;
@@ -187,6 +188,9 @@
     color: white;
 }
 /* -- NOSOTROS -- */ 
+.card-nosotros {
+    padding: 10px;
+}
 .card-nosotros h2 {
     background-color: var(--background-color);
     padding: 5px;
@@ -208,7 +212,9 @@
     font-weight: bold;
 }
 /* -- SUSTENTABILIDAD -- */
-
+.card {
+    padding: 10px;
+}
 .cards h2 {
     text-align: center;
     background-color: rgb(183, 219, 183);
