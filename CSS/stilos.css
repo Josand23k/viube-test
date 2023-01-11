@@ -398,6 +398,20 @@
     background-color: forestgreen;
     margin: 10px 0px;
 }
+
+/* -- NOSOTROS -- */
+.text-nosotros {
+ padding: 10px;    
+}
+.text-nosotros h2 {
+    text-align: center;
+}
+.box-nosotros {
+    padding: 10px;
+}
+.bottom-nosotros img {
+    width: 100%;
+}
 /* -- MEDIA QUERIES -- */
     /* -- MEDIUM DEVICES -- */
 @media only screen and (max-width: 992px) {
